@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: #fff;
+}
+
+header {
+  background: #0a0a0a;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  border-bottom: 2px solid #1e90ff;
+}
+
+.container {
+  display: flex;
+  height: calc(100vh - 60px);
+}
+
+aside {
+  width: 260px;
+  background: #0a0a0a;
+  overflow-y: auto;
+}
+
+.channel {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  cursor: pointer;
+  border-bottom: 1px solid #111;
+  transition: background 0.2s;
+}
+
+.channel img {
+  width: 42px;
+  margin-right: 10px;
+}
+
+.channel span {
+  font-size: 15px;
+}
+
+.channel:hover,
+.channel.active {
+  background: #1e90ff;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+iframe {
+  width: 100%;
+  height: 75vh;
+  border: none;
+  background: #000;
+}
+
+.ad {
+  background: #0a0a0a;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  border-top: 1px solid #111;
+}
