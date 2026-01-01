@@ -1,0 +1,17 @@
+[
+  {
+    "nome": "TV Brasil",
+    "logo": "logos/tvbrasil.png",
+    "player": "https://www.youtube.com/embed/5qap5aO4i9A"
+  },
+  {
+    "nome": "Canal UOL",
+    "logo": "logos/uol.png",
+    "player": "https://www.youtube.com/embed/21X5lGlDOfg"
+  },
+  {
+    "nome": "Pluto TV Notícias",
+    "logo": "logos/pluto.png",
+    "player": "https://pluto.tv/pt/live-tv/5f2b00f5c1ffbc0007e2f2f9"
+  }
+]
